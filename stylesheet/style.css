@@ -180,6 +180,7 @@ a{
         /* height: auto; */
         /* border-radius: 100%; */
         border: 10px solid white;
+        margin: 20px 0;
         box-shadow: 1px 1px 3px 3px #2c2c2c44;
     }
     .content-profile p{
@@ -207,7 +208,7 @@ a{
         width: auto;
         border-bottom: 2px solid hsl(237, 100%, 77%);
         margin: 0 auto;
-        padding: 1rem;
+        padding: 2rem 0;
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
@@ -232,6 +233,7 @@ a{
         width: 30%;
         float: left;
         border: 9px solid white;
+        margin-top:30px;
         box-shadow: 1px 1px 3px 3px #2c2c2c44;
     }
     .deks-box{
@@ -241,11 +243,15 @@ a{
         /* border:  1px solid; */
     }
     .deks-box h4{
-        padding: 1rem 0;
+        padding: 3rem 0;
         font-weight: 500;
+<<<<<<< HEAD
         /* border: 1px solid; */
         /* margin-top: 50px; */
         
+=======
+        border: 1px solid;
+>>>>>>> 27e18f0e8d6b1cca8e1e86eeddff3b2cf7a340f3
     }
     .marginbox{
         width: 80%;
@@ -266,6 +272,7 @@ a{
     /* education */
     .container-education{
         width: 100%;
+<<<<<<< HEAD
         background-color: white;
         box-shadow: 2px 2px 3px 3px #3a39392f;
         overflow: auto;
@@ -334,3 +341,11 @@ a{
         /* border: 1px solid; */
         box-shadow: 1px 1px 3px 3px #2c2c2c44;
     }
+=======
+        /* border: 1px solid; */
+        padding: 3rem 0;
+        background-color: white;
+        box-shadow: 3px 3px 3px 3px #818080a2;
+        margin: 20px 0;
+    }
+>>>>>>> 27e18f0e8d6b1cca8e1e86eeddff3b2cf7a340f3
