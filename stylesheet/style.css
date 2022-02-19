@@ -224,12 +224,13 @@ a{
       
     }
     .box-exp img{
-        width: 20%;
+        width: 22%;
+        float: left;
         border: 9px solid white;
         box-shadow: 1px 1px 3px 3px #2c2c2c44;
     }
     .deks-box{
-        width: auto;    
+        width:  100%;    
         padding: 0rem 2rem;
         top: 0%;
         /* border:  1px solid; */
@@ -252,4 +253,14 @@ a{
         display: flex;
         margin-top: -100px;
         margin-bottom: 100px;
+    }
+
+    /* education */
+    .container-education{
+        width: 100%;
+        /* border: 1px solid; */
+        padding: 2rem 0;
+        background-color: white;
+        box-shadow: 3px 3px 3px 3px #818080a2;
+        margin: 20px 0;
     }
