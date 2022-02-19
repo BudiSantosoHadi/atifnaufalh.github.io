@@ -240,6 +240,7 @@ a{
     .deks-box h4{
         padding: 3rem 0;
         font-weight: 500;
+        border: 1px solid;
     }
     .marginbox{
         width: 80%;
