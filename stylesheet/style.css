@@ -84,7 +84,7 @@ a{
         overflow: auto;
         /* margin-top: 30px; */
         background-image: url(/image/fe4dd6e2f56629c2dd0b6abed811124d.jpeg);
-        height: 658px;
+        height: 678px;
     }
     .br-imagecontent{
         padding-top: 6.4%;
@@ -242,4 +242,14 @@ a{
         width: 80%;
         /* display: flex; */
         margin: 0 auto;
+    }
+
+    .menu-id{
+        width: 100%;
+        /* border: 1px solid; */
+        /* position: absolute; */
+        margin: 0 auto;
+        display: flex;
+        margin-top: -100px;
+        margin-bottom: 100px;
     }
