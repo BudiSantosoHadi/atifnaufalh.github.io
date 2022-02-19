@@ -9,6 +9,11 @@
 a{
     text-decoration: none;
 }
+.container-big{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 .top-head{
     display: flex;
@@ -167,7 +172,7 @@ a{
     }
     .content-profile img{
         width: 66%;
-        height: 420px;
+        height: 400px;
         background-repeat: no-repeat;
         background-size: cover;
         justify-content: center;
@@ -210,7 +215,7 @@ a{
         color: rgb(31, 31, 31);
     }
     .contentbox-exp{
-        padding: 2rem 0;
+        padding: 1rem 0;
         /* border: 1px solid; */
     }
     .box-exp{
@@ -224,20 +229,23 @@ a{
       
     }
     .box-exp img{
-        width: 22%;
+        width: 30%;
         float: left;
         border: 9px solid white;
         box-shadow: 1px 1px 3px 3px #2c2c2c44;
     }
     .deks-box{
         width:  100%;    
-        padding: 0rem 2rem;
-        top: 0%;
+        padding: 0 2rem;
+        /* height: 300px; */
         /* border:  1px solid; */
     }
     .deks-box h4{
         padding: 1rem 0;
         font-weight: 500;
+        /* border: 1px solid; */
+        /* margin-top: 50px; */
+        
     }
     .marginbox{
         width: 80%;
@@ -258,9 +266,71 @@ a{
     /* education */
     .container-education{
         width: 100%;
-        /* border: 1px solid; */
-        padding: 2rem 0;
         background-color: white;
-        box-shadow: 3px 3px 3px 3px #818080a2;
-        margin: 20px 0;
+        box-shadow: 2px 2px 3px 3px #3a39392f;
+        overflow: auto;
+        /* border: 1px solid; */
+        /* padding: 1rem 0; */
+        display: flex;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    /* content - portofolio */
+    .container-portofolio{
+        width: 100%;
+        margin: 30px 0;
+    }
+    .content-box-porto{
+        display: flex;
+        width: 100%;
+        columns: 4;
+        column-width: 20%;
+    }
+    .box-imagedeks{
+        width: 100%;
+        border: 2px solid;
+        padding: 100px 50px;   
+        /* margin: 50px 0;  */
+        /* justify-content: space-between; */
+    }
+    .box-imagedeks h3{
+        padding: 5px 0;
+        font-weight: 500;
+    }
+    .box-imagedeks a{
+        border: 1px solid;
+         width: 70px;
+         color: rgb(53, 52, 52);
+         padding: 5px;
+         text-align: center;
+        margin: 10px 0;
+        
+        overflow: auto;
+        display: block;
+        border-radius: 100px;
+        /* position: absolute; */
+    }
+    .box-imagedeks a:hover{
+        background-color: rgb(80, 111, 158);
+        color: white;
+    }
+
+    /* image deks */
+    .box-imagedeks[array="0"] {
+        background-image: url(/image/smkbinautama.jpg);
+        background-size: 338px;
+        background-repeat: no-repeat;
+        color: rgb(3, 11, 116);
+        background-color: rgba(0, 255, 255, 0.205);
+        font-weight: 400;
+        /* background-image: -webkit-linear-gradient(20px); */
+    }
+    
+
+    /* footer */
+    .foot-down{
+        width: 100%;
+        padding: 20px 0;
+        /* border: 1px solid; */
+        box-shadow: 1px 1px 3px 3px #2c2c2c44;
     }
