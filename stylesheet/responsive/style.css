@@ -1,0 +1,180 @@
+@media all and (max-width: 430px){
+
+    /* right */
+    .right-nav{
+        display: none;
+    }
+
+    /* left */
+
+    .left-title-name{
+        width: 100%;
+        margin: 0 auto;
+        position: fixed;
+        overflow: auto;
+        background-color: rgba(27, 96, 187, 0.945);
+    
+        /* border: 1px solid; */
+    }
+    .left-title-name h3{
+        left: 0;
+        font-size: 13px;
+    }
+
+    /* nav-main-menu */
+
+    .nav-respon{
+        display: block;
+        /* border: 1px solid; */
+        overflow: auto;
+        position: fixed;
+        /* position: absolute; */
+        margin-top: 47.4px;
+        width: 100%;
+        background-color: hsl(214, 92%, 39%);
+    }
+    .nav-respon div,
+    .nav-respon div a{
+        float: left;
+        justify-content: center;
+        padding: 7px 3px 7px 6px;
+        align-items: center;
+        display: flex;
+    }
+
+    /* content-view */
+    .content-view{
+        width: 100%;
+        display: block;
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* margin-top: 20px; */
+        height: 400px;
+        padding: 0;
+      
+    }
+    .img-contentmain{
+        /* border: 1px solid; */
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .img-contentmain h2{
+        font-size: 26px;
+        height: 60px;
+        /* border: 1px solid; */
+        overflow: auto;
+        float: left;
+        padding: 0;
+        margin: 120px 0 0 0 ;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .contentjustify{
+        width: 100%;
+        /* margin-top: -10px; */
+        /* border: 1px solid; */
+        justify-content: center;
+        overflow: auto;
+        display: flex;
+    }
+    .btn-contactmain{
+        width: 19% ;
+        text-align: center;
+        height: 17px;
+        overflow: auto;
+        border: 3px solid;
+        color: whitesmoke;
+        margin: 0;
+        font-size: 16px;
+        display: flex;
+        padding: auto;
+     
+        /* width: ; */
+    }
+    .top-profile{
+        margin-top: -30px;
+    }
+    .container-profile{
+        display: none;
+    }
+
+    /* respon */
+    .respon-containerProfile {
+        display: block;
+        box-shadow: 1px 1px 3px 3px #41404017;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .respon-content-profile {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .respon-content-profile img{
+        width: 90%;
+        margin: auto;
+        padding: auto;
+        border: 20px solid rgb(255, 254, 254);
+        box-shadow: 1px 1px 3px 3px #2c2c2c44;
+    }
+    .respon-content-profile p{
+        padding: 1rem;
+        color: rgb(68, 68, 68);
+        font-weight: 300;
+    }
+    .menu_ a:hover{
+        border-radius: 32px;
+        border: 1px solid whitesmoke;
+        padding: 6px;
+    }
+    
+}
+
+@media all and (max-width: 395px){
+    .left-title-name{
+        width: 100%;
+        margin: 0 auto;
+        position: fixed;
+        overflow: auto;
+        background-color: rgba(27, 96, 187, 0.945);
+    
+        /* border: 1px solid; */
+    }
+    .left-title-name h3{
+        left: 0;
+        font-size: 13px;
+    }
+
+    /* nav-main-menu */
+
+    .nav-respon{
+        display: block;
+        /* border: 1px solid; */
+        overflow: auto;
+        position: fixed;
+        /* position: absolute; */
+        margin-top: 47.4px;
+        width: 100%;
+        background-color: hsl(214, 92%, 39%);
+    }
+    .nav-respon .menu_{
+        
+        /* padding: 10px 2px 5px 1px; */
+        /* display: flex; */
+        /* border: 1px solid; */
+        width: auto;
+        font-size: 12px;
+        position: relative;
+        float: left;
+    }
+    .nav-respon div a{
+        width: 100%;
+        padding: 10px 2px;
+        float: left;
+        display: flex;
+        overflow: auto;
+        /* justify-content: center; */
+          /* border: 1px solid; */
+    }
+}
